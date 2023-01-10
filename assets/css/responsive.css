@@ -1,0 +1,119 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media all and (max-width: 1199px){
+
+}
+
+@media all and (max-width: 991px){
+	
+}
+
+@media all and (max-width: 767px){
+	.acca_txt {
+		 
+		width: 100%;
+		 
+	}
+	.page_10_top_img img {
+		height: 120px;
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 575px){
+	.page_10_cont_menu ul li a {
+		 
+		margin-right:8px;
+		padding: 8px 6px;
+		display: flex;
+		align-content: center;
+	}
+	.page2_btn a {
+		font-size: 16px;
+		padding: 9px 18px;
+	}
+	.page4_social_single {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 19%;
+		        flex: 0 0 19%;
+	}
+	.phone_cont p {
+		 
+		width: auto;
+	}
+	.header_page_3 {
+		margin: 54px -30px 20px 0px;
+		 
+	}
+}
+
+@media all and (max-width: 450px){
+	.acca_txt {
+		background: rgba(23, 43, 77, 0.1);
+		margin-left: -50px;
+		width: 82%;
+		padding-left: 70px;
+		border-radius: 0 16px 16px 0;
+	}
+	.temp_5_top {
+		display: inherit;
+		 
+	}
+	.t_img a{
+		display: block;
+		text-align: center;
+	}
+	.t_heaing {
+		text-align: center;
+	}
+	.t_socials {
+		display: flex;
+		justify-content: space-around;
+	}
+	.template_5_profile > p {
+		 
+		margin-top: 22px;
+	}
+	.page2_social_icon ul li {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 24%;
+		        flex: 0 0 24%;
+	}
+	.header_right_single {
+		padding: 13px 20px;
+	}
+	.page4_social_icon ul li a span {
+		font-size: 14px;
+	}
+	.page4_header_position_img {
+		left: -50px;
+	}
+	.page4_social_single {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 21%;
+		        flex: 0 0 21%;
+	}
+	.page6_header_social {
+		max-width: 300px;
+	}
+	.page6_header_social_position {
+		width: 106.2%;
+	}
+	.page9_social_icon2 ul li {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 31%;
+		        flex: 0 0 31%;
+	}
+	.page4_header_position_img2 {
+		left: -133px;
+		top: -175px;
+	}
+	.page6_header_svg {
+		top: 85px;
+	}
+}

@@ -1,0 +1,1604 @@
+
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+html{
+	font-size: 62.5%;
+}
+body{	
+	font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+    background: #F7F7F7;
+
+ /*   font-family: 'Montserrat', sans-serif;    */
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li a,a{
+	text-decoration: none;
+}
+h1{
+	font-size: 32px;
+	font-weight: 500;
+}
+h3{
+	font-size: 20px;
+	font-weight: 700;
+}
+.max_width{
+	max-width: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.pagination{
+	position: absolute;
+	left:15%;
+	top:20%;
+	z-index: 9999;
+	background-color: tomato;
+	padding: 10px 0;
+	flex-direction: column;
+
+}.pagination ul{
+ display: flex; 
+ flex-wrap: wrap;
+	justify-content: center; 
+	flex-direction: column;
+}
+.pagination ul li {
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+.pagination ul li a{
+	font-size: 16px;
+	color: white;
+	margin: 5px;
+	transition: 0.5s;
+	padding: 0 15px;
+	font-weight: 700;
+}
+.pagination ul li a:hover{
+	color:black
+}
+img{
+	width: 100%;
+	height: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+/*/////////////////////////////////////////// Start Templete 2 ///////////////////////////////////////////*/
+/*==============================================================
+================       Start Header Section       ==============
+==============================================================*/
+.header_main{
+	background: url(../images/templete_2/banner.png) no-repeat scroll 0 0 / cover;
+	position: relative;
+	z-index: 3;
+	padding: 50px 0px 52px 0px;
+}
+.header_main::after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #312A50;
+	opacity: .9;
+	z-index: -1;
+}
+.header_left img {
+	width: 200px;
+	height: auto;
+	margin-left: -25px;
+}
+.header_left h1 {
+	color: #FFF;
+	max-width: 100px;
+	margin-top: -10px;
+}
+.header_left p{
+	font-size: 17px;
+	color: #9D99B8;
+	margin-top: 5px;
+}
+.header_left p i{
+	margin-right: 10px;
+}
+.header{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.header_right_single{
+	background: #4F4873CC;
+	padding: 13px 30px;
+	text-align: center;
+	-webkit-backdrop-filter: blur(12px);
+	        backdrop-filter: blur(12px);
+	border-radius: 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.header_right_single a {
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 12px;
+	margin-top: 5px;
+}
+.header_right_single_icon a{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.header_right_single_icon a i {
+	color: #FFF;
+	font-size: 30px;
+}
+.header_right_single_icon a span{
+	margin-top: 5px;
+}
+.header_right {
+	margin-top: 25px;
+}
+/*==============================================================
+=================       End Header Section       ===============
+==============================================================*/
+
+/*==============================================================
+=================       Start Social Section     ===============
+==============================================================*/
+.social_main{
+	border-radius: 20px 20px 0px 0px;
+	-webkit-box-shadow: 0px -5px 21px rgba(255, 255, 255, 0.25);
+	        box-shadow: 0px -5px 21px rgba(255, 255, 255, 0.25);
+	margin-top: -20px;
+	position: relative;
+	z-index: 22;
+	background: #FFF;
+	padding: 30px 0px 60px 0px;
+}
+.social_header p {
+	font-size: 15px;
+	color: #312A50;
+	line-height: 30px;
+	max-width: 356px;
+}
+.page2_btn{
+	text-align: right;
+	margin-top: 17px;
+}
+.page2_btn a{
+	background: -webkit-gradient(linear, left bottom, left top, from(#F3733C), to(#F3733C)), url(stephan-louis-L3s5QySz5UM-unsplash.jpg);
+	background: -o-linear-gradient(bottom, #F3733C, #F3733C), url(stephan-louis-L3s5QySz5UM-unsplash.jpg);
+	background: linear-gradient(0deg, #F3733C, #F3733C), url(stephan-louis-L3s5QySz5UM-unsplash.jpg);
+	-webkit-box-shadow: 0px 4px 16px rgba(255, 186, 146, 0.6);
+	        box-shadow: 0px 4px 16px rgba(255, 186, 146, 0.6);
+	border-radius: 6px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	color: #FFF;
+	padding: 10px 22px;
+}
+.page2_btn a:hover{
+	background: -webkit-gradient(linear, left bottom, left top, from(#E16834), to(#E16834)), url(stephan-louis-L3s5QySz5UM-unsplash.jpg);
+	background: -o-linear-gradient(bottom, #E16834, #E16834), url(stephan-louis-L3s5QySz5UM-unsplash.jpg);
+	background: linear-gradient(0deg, #E16834, #E16834), url(stephan-louis-L3s5QySz5UM-unsplash.jpg);;
+}
+
+.social_icon_header h3 {
+	color: #312A50;
+	margin: 20px 0px 24px 0px;
+}
+.page2_social_icon ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.page2_social_icon ul li {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 15%;
+	        flex: 0 0 15%;
+	text-align: center;
+}
+.page2_social_icon ul li a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.page2_social_icon ul li a i {
+	font-size: 25px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 44px;
+	margin-bottom: 10px;
+}
+.page2_social_icon ul li a span{
+	font-size: 15px;
+	color: #656E7B;
+}
+.social_icon_color1{
+	border: 1px solid #4AC959;
+	color: #4AC959;
+}
+.social_icon_color2{
+	border: 1px solid #3B5998;
+	color: #3B5998;
+}
+.social_icon_color3{
+	border: 1px solid #0077B7;
+	color: #0077B7;
+}
+.social_icon_color4{
+	border: 1px solid #DF346A;
+	color: #DF346A;
+}
+.page2_social_icon2{
+	margin-top: 25px;
+}
+.social_icon_color5{
+	border: 1px solid #0088CC;
+	color: #0088CC;
+}
+.social_icon_color6{
+	border: 1px solid #1DA1F2;
+	color: #1DA1F2;
+}
+.social_icon_color7{
+	border: 1px solid #BD2126;
+	color: #BD2126;
+}
+.social_icon_color8{
+	border: 1px solid #8E24AA;
+	color: #8E24AA;
+}
+/*==============================================================
+=================       End Social Section       ===============
+==============================================================*/
+
+/*==============================================================
+=================       Start PARTICLE           ===============
+==============================================================*/
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.count-particles{
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles{
+  font-size: 1.1em;
+}
+#stats,
+.count-particles{
+}
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+/*==============================================================
+=================       End PARTICLE             ===============
+==============================================================*/
+/*/////////////////////////////////////////// End Templete 2 ///////////////////////////////////////////*/
+
+/*/////////////////////////////////////////// Start Templete 4 ///////////////////////////////////////////*/
+/*==============================================================
+================    Start header Area (page-4)    ==============
+==============================================================*/
+/*     font-family: 'Poppins', sans-serif;     */
+.page4_header_main {
+	padding: 165px 0px 29px 0px;
+	position: relative;
+	background: #FFF;
+	z-index: 3;
+	overflow: hidden;
+}
+.page4_header_svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*.page4_header_position_img {
+	position: absolute;
+	width: 500px;
+	height: 386px;
+	left: 0;
+	top: -35px;
+	z-index: -1;
+}*/
+/*.page4_header_position_img {
+	position: absolute;
+	width: 600px;
+	height: 386px;
+	/*right: -131px;
+	top: -267px;
+	right: -130px;
+	top: -270px;
+	z-index: -1;
+}
+.page4_header_position_img2 {
+	position: absolute;
+	width: 400px;
+	height: auto;
+	left: -85px;
+	top: -168px;
+	z-index: -1;
+}*/
+.page4_profile_img img{
+	width: 114px;
+	height: auto;
+}
+.page4_profile_img{
+	position: relative;
+	z-index: 1;
+}
+.page4_profile_img::after {
+	position: absolute;
+	content: "";
+	width: 68.43px;
+	height: 68.43px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: #2B2E38;
+	mix-blend-mode: normal;
+	opacity: 0.8;
+	-webkit-filter: blur(51.6474px);
+	        filter: blur(51.6474px);
+	z-index: -1;
+}
+.page4_profile_img_position {
+	position: absolute;
+	top: 18px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.page4_profile_img_position img{
+	width: 229px;
+	height: 81.62px;
+}
+.page4_header{
+	text-align: center;
+}
+.page4_profile_content{
+	margin: 34px 0px 11px 0px;
+}
+.page4_profile_content h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 23px;
+	color: #333333;
+}
+.page4_profile_content p,
+.page4_profile_content2 p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #666666;
+	line-height: 21px;
+}
+.page4_profile_content2 p {
+	letter-spacing: 0.02em;
+	max-width: 390px;
+	margin: 0 auto;
+}
+/*==============================================================
+================    End header Area (page-4)      ==============
+==============================================================*/
+
+/*==============================================================
+================    Start Social Area (page-4)    ==============
+==============================================================*/
+.page4_social_main{
+	background: #FFF;
+	position: relative;
+	z-index: 33;
+	padding-bottom: 70px;
+}
+.page4_social_single a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background: #EA486E;
+	-webkit-box-shadow: 0px 6px 24px rgba(234, 72, 110, 0.4);
+	        box-shadow: 0px 6px 24px rgba(234, 72, 110, 0.4);
+	border-radius: 10px;
+	width: 100%;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #FFFFFF;
+	height: 100%;
+}
+.page4_social_single a i {
+	display: block;
+	padding: 22px 0px 23px 0px;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+.page4_social_single a span {
+	display: block;
+	padding: 12px 0px 13px 0px;
+	background: #F26788;
+	border-radius: 0px 0px 10px 10px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.page4_social_header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.page4_social_single {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 18%;
+	flex: 0 0 18%;
+	margin-bottom: 15px;
+}
+
+.page4_social_header h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	margin: 45px 0px 25px 0px;
+}
+.page4_social_icon ul li a i {
+	background: rgba(242, 103, 136, 0.1);
+	border: none;
+	color: #EA486E;
+	width: 50px;
+	height: 50px;
+	line-height: 49px;
+}
+.page4_social_icon ul li a span{
+	font-family: 'Poppins', sans-serif;
+}
+/*==============================================================
+================    End Social Area (page-4)      ==============
+==============================================================*/
+/*/////////////////////////////////////////// End Templete 4 ///////////////////////////////////////////*/
+
+/*/////////////////////////////////////////// Start Templete 6 ///////////////////////////////////////////*/
+/*==============================================================
+================    Start header Area (page-6)    ==============
+==============================================================*/
+/*      font-family: 'Raleway', sans-serif;     */
+.page6_header_main{
+	background: url(../images/templete_6/back_header.png) no-repeat scroll 0 0 / cover;
+	position: relative;
+	z-index: 22;
+	background-color: #121421;
+}
+.page6_header_profile{
+	margin: 74px 0px 20px 0px;
+	text-align: center;
+}
+.page6_header_profile img{
+	width: 130px;
+	height: auto;
+}
+.page6_header_profile h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	margin: -12px 0px 1px 0px;
+	color: #FFF;
+}
+.page6_header_profile p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	opacity: 0.8;
+}
+
+.page6_header_social_single a{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.page6_header_social_single a i {
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFF;
+	background: rgba(50, 172, 136, 0.4);
+	border-radius: 5px;
+}
+.page6_header_social_single a span{
+	margin-top: 5px;
+	color: #121421;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+.page6_header_social {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	max-width: 350px;
+	margin: 0 auto;
+	z-index: 22;
+	/* background: url(../images/templete_6/social_background.png) no-repeat scroll 0 0 / cover; */
+	flex-wrap: wrap;
+}
+.page6_header_social_all{
+	position: relative;
+	z-index: 22;
+}
+/*.page6_header_svg {
+	position: absolute;
+	top: 41px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}*/
+.page6_header_social_position {
+	position: absolute;
+	top: -164px;
+	left: -10px;
+	width: 104.2%;
+	height: 100%;
+	z-index: -1;
+}
+.page6_header_social_single {
+	padding: 27px 0px 70px 0px;
+}
+.page6_header_social_position img {
+	height: 385px;
+	width: 100%;
+}
+/*==============================================================
+================    End header Area (page-6)      ==============
+==============================================================*/
+
+/*==============================================================
+================    Start Social Area (page-6)    ==============
+==============================================================*/
+.page6_social_main {
+	background: url(../images/templete_6/back_social3.png) no-repeat scroll 0 0 / cover;
+	padding: 0px 0px 42px 0px;
+	position: relative;
+	z-index: 3;
+	background-color: #121421;
+}
+.page6_about h2,
+.page6_social_icon h2 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 8px;
+	position: relative;
+}
+.page6_about h2::after,
+.page6_social_icon h2::after {
+	position: absolute;
+	content: "";
+	width: 67px;
+	height: 8px;
+	left: 0px;
+	bottom: 3px;
+	background: #04C78C;
+	-webkit-box-shadow: 0px -20px 46px rgba(17, 216, 156, 0.15), 0px 9px 12px rgba(0, 0, 0, 0.25);
+	        box-shadow: 0px -20px 46px rgba(17, 216, 156, 0.15), 0px 9px 12px rgba(0, 0, 0, 0.25);
+	z-index: -1;
+}
+.page6_about p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 30px;
+	color: #FFFFFF;
+	max-width: 360px;
+}
+
+.page6_social_icon h2{
+	margin: 30px 0px 37px 0px;
+}
+.page6_social_icon ul li a span{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #FFF;
+}
+.page6_social_icon ul li a i {
+	color: #fff;
+	background: transparent;
+}
+.page2_social_icon ul li{
+	margin-bottom: 32px;
+}
+.page6_btn a{
+	color: #121421;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(24.69%, #11D89C), color-stop(66.82%, #8CFFDC));
+	background: -o-linear-gradient(bottom, #11D89C 24.69%, #8CFFDC 66.82%);
+	background: linear-gradient(360deg, #11D89C 24.69%, #8CFFDC 66.82%);
+	-webkit-box-shadow: 0px 13px 46px rgba(17, 216, 156, 0.15), 0px 9px 12px rgba(0, 0, 0, 0.25);
+	        box-shadow: 0px 13px 46px rgba(17, 216, 156, 0.15), 0px 9px 12px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	display: block;
+	text-align: center;
+	padding: 10px 0px;
+}
+.page6_btn a:hover{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(24.69%, #8CFFDC), color-stop(66.82%, #11D89C));
+	background: -o-linear-gradient(bottom, #8CFFDC 24.69%, #11D89C 66.82%);
+	background: linear-gradient(360deg, #8CFFDC 24.69%, #11D89C 66.82%);
+}
+/*==============================================================
+================    End Social Area (page-6)      ==============
+==============================================================*/
+/*/////////////////////////////////////////// End Templete 6 ///////////////////////////////////////////*/
+
+/*/////////////////////////////////////////// End Templete 8 ///////////////////////////////////////////*/
+/*    font-family: 'Poppins', sans-serif;    */
+/*==============================================================
+================    Start Header Area (page-8)    ==============
+==============================================================*/
+.page8_header_main {
+	padding: 70px 0px 50px 0px;
+	background: url(../images/templete_8/banner.png) no-repeat scroll 0 0 / cover;
+	position: relative;
+	z-index: 22;
+}
+.page8_header_profile_img img{
+	width: 112px;
+	height: auto;
+	border-radius: 50%;
+	border: 5px solid #FCAA16;
+}
+.page8_header_profile{
+	text-align: center;
+	max-width: 380px;
+	margin: 0 auto;
+}
+.page8_header_profile h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #FFF;
+	margin: 16px 0px 10px 0px;
+}
+.page8_header_profile p{
+	font-family: 'Poppins', sans-serif;
+	color: #FFF;
+}
+.page8_profile_content2 p{
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: -0.3px;
+	color: #F5F5F5;
+	margin-top: 22px;
+}
+/*==============================================================
+================    End Header Area (page-8)      ==============
+==============================================================*/
+
+/*==============================================================
+================    Start Social Area (page-8)    ==============
+==============================================================*/
+.page8_social_single {
+	background: #F06292;
+	-webkit-box-shadow: 0px 7.95774px 23.8732px rgba(240, 98, 146, 0.3);
+	box-shadow: 0px 7.95774px 23.8732px rgba(240, 98, 146, 0.3);
+	border-radius: 18.1891px;
+	margin-bottom: 15px;
+}
+.page8_social_single a {
+	background: transparent;
+	border-radius: 18px;
+	padding: 20px 0px;
+}
+.page8_social_single a span {
+	background: transparent;
+	border-radius: 0px 0px 30px 30px;
+	padding: 0px;
+	margin-top: 11px;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+}
+.page8_social_single a i{
+	padding: 0px;
+}
+.page8_social_icon_header h3 {
+	margin: 20px 0px 14px 0px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+}
+.page8_social_icon ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.page8_social_icon ul li{
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 31%;
+	        flex: 0 0 31%;
+	background: #F5F5F5;
+	border: 1px solid #E7E7E7;
+	border-radius: 5.34px;
+	margin-bottom: 15px;
+}
+.page8_social_icon ul li a {
+	/* display: -webkit-box; */
+	/* display: -ms-flexbox; */
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 30px 0px 13px 13px;
+}
+.page8_social_icon ul li a span{
+	font-weight: 500;
+	font-size: 15.3023px;
+	line-height: 20px;
+	color: #172B4D;
+	margin-top: 7px;
+	font-family: 'Poppins', sans-serif;
+}
+.page8_social_icon2 ul{
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.page8_bn{
+	border: none;
+	font-size: 25px;
+}
+.page8_social_main{
+	padding: 30px 0px 58px 0px;
+}
+/*==============================================================
+================    End Social Area (page-8)    ==============
+==============================================================*/
+/*/////////////////////////////////////////// End Templete 8 ///////////////////////////////////////////*/
+
+/*/////////////////////////////////////////// End Templete 9 ///////////////////////////////////////////*/
+/*==============================================================
+================    Start Header Area (page-9)    ==============
+==============================================================*/
+.page9_header_main {
+	padding: 65px 0px 55px 0px;
+	background: url(../images/templete_9/banner.jpg) no-repeat scroll 0 0 / cover;
+	position: relative;
+	z-index: 22;
+}
+.page9_header_main::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(244, 242, 243, 0.53);
+	z-index: -1;
+}
+.page9_header_profile_left img {
+	width: 127px;
+	height: auto;
+	margin-left: -9px;
+}
+.page9_header_profile{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.page9_header_profile_right h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #182B49;
+}
+.page9_header_profile_right p{
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	color: #182B49;
+	margin-top: 5px;
+}
+.page9_header_profile_left{
+	margin-right: 12px;
+}
+.page9_header_profile_content2 p {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 29px;
+	letter-spacing: -0.3px;
+	color: #182B49;
+	max-width: 393px;
+	margin-top: 5px;
+}
+/*==============================================================
+================    End Header Area (page-9)      ==============
+==============================================================*/
+
+/*==============================================================
+================    Start Social Area (page-9)    ==============
+==============================================================*/
+.page9_social_main {
+	position: relative;
+	z-index: 22;
+	background: -webkit-gradient(linear, left top, left bottom, from(#18A4B7), to(#107E92));
+	background: -o-linear-gradient(top, #18A4B7 0%, #107E92 100%);
+	background: linear-gradient(180deg, #18A4B7 0%, #107E92 100%);
+	border-radius: 30px 30px 0px 0px;
+	margin-top: -25px;
+	padding: 23px 0px 40px 0px;
+}
+.page9_social_icon ul li a i {
+	background: rgba(58, 175, 190, .87);
+	border: none;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	line-height: 49px;
+}
+.page9_social_icon ul li a span{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #FFF;
+}
+.page9_social_icon {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.page9_social_icon ul li a i {
+	background: rgba(58, 175, 190, .87);
+	border: none;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	line-height: 44px;
+	font-size: 20px;
+	border-radius: 18.1891px;
+}
+/*Start Social 2nd*/
+
+.page9_social_main2 {
+	position: relative;
+	z-index: 22;
+	padding: 24px 0px 51px 0px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3B5D8F), to(#162945));
+	background: -o-linear-gradient(top, #3B5D8F 0%, #162945 100%);
+	background: linear-gradient(180deg, #3B5D8F 0%, #162945 100%);
+	-webkit-box-shadow: 0px -8px 67px rgba(36, 57, 88, 0.69);
+	        box-shadow: 0px -8px 67px rgba(36, 57, 88, 0.69);
+	border-radius: 30px 30px 0px 0px;
+	margin-top: -25px;
+}
+.page9_social2_header h2{
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 22px;
+	text-align: center;
+}
+.page9_social_icon2 ul li a i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 25px;
+	background: rgba(62, 97, 147, .87);
+}
+.page9_social_icon2 ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.page9_social_icon2 ul li{
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 31%;
+	        flex: 0 0 31%;
+	margin-bottom: 50px;
+}
+.page9_social_icon3 ul{
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+/*==============================================================
+================    End Social Area (page-9)      ==============
+==============================================================*/
+/*/////////////////////////////////////////// End Templete 9 ///////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////// Start Templete 1 ///////////////////////////////////////////*/
+/*
+using font family
+font-family: 'Poppins', sans-serif;
+
+*/
+/*============= start pages1_header_area css================*/
+.pages_1{
+	font-family: 'Poppins', sans-serif;
+}
+.pages_1 p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #32325D;
+}
+.pages1_header_area{
+	background: linear-gradient(148.6deg, #281483 -3.72%, #8F6ED5 70.68%, #D782D9 112.16%);
+}
+.pages1_profile_heading a img {
+	max-width: 124px;
+	width: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.pages1_profile_heading{
+	text-align: center;
+}
+.pages1_profile_heading a {
+	display: block;
+	max-width: 120px;
+	width: 100%;
+	margin: auto;
+	margin-top: 75px;
+	margin-bottom: 20px;
+}
+.pages1_profile_heading h2 {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 38px;
+	color: #32325D;
+	text-align: center;
+}
+.pages1_profile_heading p{
+	color: #32325D;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+.pages1_heading_icon_area p {
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: -0.3px;
+	color: #525F7F;
+}
+.pages_one_heading_content{
+	position: relative;
+	z-index: 1;
+}
+.pages_one_heading_content::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 58px;
+	left: 0;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 32px rgba(136, 152, 170, 0.15);
+	border-radius: 16px;
+	z-index: -1;
+}
+.pages1_heading_icon_area ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 18px;
+}
+.pages1_heading_icon_area ul li a {
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+	border: 1px solid #BEC0C7;
+	border-radius: 15px;
+	padding: 15px 20px;
+}
+.pages1_heading_icon_area ul li a i {
+	color: rgba(82, 95, 127, 1);
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 3px;
+}
+.pages1_heading_icon_area ul li a span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14.7879px;
+	line-height: 21px;
+	letter-spacing: 0.105628px;
+	color: #525F7F;
+}
+.pages1_heading_icon_area > a {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	color: #FFFFFF;
+	background: linear-gradient(148.6deg, #281483 -3.72%, #8F6ED5 70.68%, #D782D9 112.16%);
+	box-shadow: 0px 4px 4px rgba(103, 75, 181, 0.26);
+	border-radius: 10px;
+	text-align: center;
+	text-align: center;
+	display: block;
+	width: 90%;
+	margin: auto;
+	padding: 11px 0;
+	margin-top: 30px;
+	margin-bottom: 23px;
+}
+/*============= End pages1_header_area css================*/
+/*============= start pages1_header_area css================*/
+.pages1_social_media_area {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 32px rgba(136, 152, 170, 0.15);
+	border-radius: 16px;
+	margin-top: 50px;
+	padding: 29px 20px 38px 28px;
+}
+.pages1_social_media_area h3 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: -0.3px;
+	color: #172B4D;
+}
+.pages1_one_social_area {
+	background: #E5E5E5;
+	padding-bottom: 25px;
+}
+.pages1_social_media_area ul li a span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 20px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.pages1_social_media_area ul li a i {
+	font-size: 20px;
+}
+.pages1_social_media_area ul li a i {
+	font-size: 20px;
+}
+.whatsapss {
+	color: #00E676 !important;
+}
+.facebook {
+	color: #395185 !important;
+}
+.linkdin {
+	color: #0A66C2 !important;
+}
+.instagram {
+	color: #D867DA !important;
+}
+.telegram {
+	color: #40B3E0 !important;
+}
+.twitter {
+	color: #55ACEE !important;
+}
+.pintrest {
+	color: #CB1F27 !important;
+}
+.twitch {
+	color: #5A3E85 !important;
+}
+
+.pages1_social_media_area ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+.pages1_social_media_area ul li{
+	flex: 0 0 50%;
+}
+.pages1_social_media_area ul li a {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+/*=============== End pages1_one_social_area css ================*/
+
+
+/* page 3 */
+.page3_header_main{
+	background: url(../images/page_3_bg.png) no-repeat scroll 0 0 / cover;
+	overflow: hidden;
+}
+/* page 3 */
+
+
+.page9_header_main {
+	 
+	 
+}
+
+.page3_contrac_area{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.page3_contrac_item{
+	 
+	text-align: center;
+ 
+flex-basis: 33%;
+border-right: 1px solid #373737;
+}
+.page3_contrac_item:last-child{
+	border: none;
+}
+.page3_contrac_item a{}
+.page3_contrac_item a span{}
+.page3_contrac_item a span i{
+	color: white;
+	font-size: 25px;
+}
+.page3_contrac_item a  p{
+	font-weight: 500;
+	font-size: 11px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.phone_text_area{}
+.phone_cont p {
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	padding: 23px;
+	line-height: 35px;
+	width: 402px;
+}
+.phone_cont {
+	background: linear-gradient(98.98deg, #444444 7.32%, #1D1D1D 98.73%);
+	box-shadow: 4px 0px 28px rgba(0, 0, 0, 0.3);
+	border: 1px solid #444444;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	margin-top: 45px;
+}
+.page_3_bttn{}
+.page_3_bttn a:hover{
+	background: linear-gradient(90.8deg, #F94C84 2.57%, #564A6F 118.12%);
+}
+.page_3_bttn a{
+	
+	background: linear-gradient(90.8deg, #F94C84 2.57%, #6722F7 118.12%);
+}
+.page_3_social_media{
+	margin-bottom: 60px;
+}
+.page_3_social_media h2{
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 30px;
+	/* margin-bottom: 25px; */
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.header_page_3 img{
+	width: 200px;
+}
+.social_media_item_box{
+	padding: 25px;
+}
+.header_page_3 {
+	margin: 110px -30px 20px 0px;
+	text-align: center;
+}
+.social_media_3{}
+.social_media_item_box a i{
+	 color: white;
+}
+.social_media_item_box a {
+	height: 55px;
+	width: 55px;
+	display: inline-block;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0px -5px 21px rgba(255, 255, 255, 0.25);
+	align-items: center;
+	/* margin-left: 24px; */
+	margin: auto;
+}
+.social_media_item_box span {
+	color: #79787D;
+	font-size: 15px;
+	font-weight: 400;
+	 
+	font-family: 'Roboto', sans-serif;
+ 
+}
+
+.social_media_3 .owl-dots .owl-dot span{
+	width: 6px;
+height: 6px;
+margin: 5px 5px;
+background: #646464;
+ 
+}
+.social_media_3 .owl-dots .owl-dot.active span{
+	height: 5px;
+	width: 24px;
+	background: linear-gradient(90.8deg, #F94C84 2.57%, #6722F7 118.12%) !important;
+}
+
+
+
+/* 5 */
+.page5_header_main{
+	background: url(../images/Template-5.png) no-repeat scroll 0 0 / cover;
+overflow: hidden;
+}
+/* 5 */
+.template_5_profile {
+	background: white;
+	border-radius: 15px;
+	margin-top: 110px;
+}
+.temp_5_top {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.t_img {
+	 
+}
+.t_img img {
+	max-width: 182px;
+	width: 100%;
+	height: auto;
+}
+.template_5_profile > p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0 30px;
+	color: #312A50;
+	padding-bottom: 15px;
+}
+.social_carosel.owl-carousel .owl-item img {
+	display: block;
+	width: 50%;
+}
+.social_carosel .owl-dots .owl-dot.active span {
+	height: 3px;
+	width: 35px;
+	background: #FD706D !important;
+}
+.social_carosel .owl-dots .owl-dot span {
+	height: 3px;
+	width: 35px;
+	background: #FEE2E2 !important;
+}
+
+.t_cont{}
+.t_heaing{}
+.t_heaing h2{
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'Rubik', sans-serif;
+	color: #32325D;
+}
+.t_heaing p{
+	color: #32325D;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+.t_social {
+	margin-top: 20px;
+}
+.t_socials{
+	display: flex;
+	justify-content: space-between;
+}
+.t_social a{
+	width: 37px;
+height: 36px;
+left: 177px;
+top: 195px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #F7F7F7;
+border-radius: 8px;
+}
+.t_social a i {
+	color: #FC6C6E;
+	font-size: 19px;
+}
+.t_social span{
+	font-size: 11px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+.social_media_accaout {
+	background: white;
+	border-radius: 11px;
+	padding: 20px 24px;
+	margin-top: 40px;
+	margin-bottom: 51px;
+}
+.social_media_accaout h2{
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 35px;
+	color: #32325D;
+	font-family: 'Roboto', sans-serif;
+}
+.accout_gallary{}
+.accaout_item:nth-child(1) .acca_icon a img{
+	width: 85%;
+}
+.accaout_item:nth-child(2) .acca_icon a img{
+	width: 30%;
+}
+.accaout_item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.acca_icon {
+	position: relative;
+}
+.acca_icon a{
+	height: 61px;
+	width: 61px;
+	border-radius: 50%;
+	background-color: white;
+	border: 1px solid #FC6471;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.acca_icon img{
+	width:50%;
+	height: auto;
+}
+
+.acca_txt {
+	background: rgba(23, 43, 77, 0.1);
+	margin-left: -18px;
+	width: 82%;
+	padding-left: 70px;
+	border-radius: 0 16px 16px 0;
+}
+.acca_txt p{
+	font-weight: 600;
+	font-size: 17px;
+	padding-left: 70px;
+	padding: 15px;
+	color: #32325D;
+	font-family: 'Montserrat', sans-serif;
+}
+.page_10_top_img{}
+.page_10_top_img img{
+	height: 250px;
+	width: 100%;
+}
+.page_10_profile_box {
+	text-align: center;
+	margin-top: -68px;
+}
+.page_10_profile_box img{
+	width: 130px;
+}
+.page_10_cont_menu{}
+.page_10_cont_menu ul {
+	display: flex;
+	/* margin-right: 19px; */
+	margin: 15px 0;
+	justify-content: center;
+}
+.page_10_bttn a:hover{
+	background-color:#9c8757 ;
+}
+.pg_10 a{
+	background-color: #BDA875;
+	 
+border-radius: 12px;
+display: block;
+text-align: center;
+padding: 10px 0px;
+color: white;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 18px;
+}
+.page_10_abot{
+	background-color: #FBFBFC;
+	border-radius: 10px;
+	margin: 10px 0;
+	border: 1px solid #E7E7E7;
+}
+ 
+.page_10_abot h1 {
+	font-weight: 700;
+	font-size: 22px;
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+	 display: inline-block;
+	padding: 16px;
+	position: relative;
+}
+.page_10_abot h1:after,.page_10_abotf:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	width:70%;
+	bottom: 0;
+	height: 2px;
+	background-color: #BDA875;
+	right: 0;
+	 
+	margin: auto;
+}
+.page_10_abot p {
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.page_10_cont_menu ul li{}
+.page_10_cont_menu ul li a {
+	border: 1.5px solid #CED6E0;
+	box-sizing: border-box;
+	border-radius: 10px;
+	display: inline-block;
+	margin-right: 16px;
+	padding: 8px 15px;
+	display: flex;
+	align-content: center;
+}
+.page_10_cont_menu ul li a i {
+	color: #BDA875;
+	font-size: 18px;
+	margin-right: 13px;
+}
+.page_10_cont_menu ul li a span{
+	font-weight: 600;
+	font-size: 14px;
+	color: #5C5C5C;
+	font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/*/////////////////////////////////////////// End Templete 1 ///////////////////////////////////////////
